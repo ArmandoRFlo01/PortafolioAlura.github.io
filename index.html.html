@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css"> 
+        <link rel="stylesheet" href="Index.css.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Red+Hat+Display&display=swap" rel="stylesheet">
+    
+    </head>
+
+    <body>
+        <Header>
+            <div><img class="logo" src="img/one.png" alt="Logo ONE"></div>
+        </Header>
+        <main>
+            <Section>
+                <textarea class="textoPrincipal" id="textoPrincipal" cols="30" rows="10" placeholder="Ingrese el texto aqui" ></textarea>
+                <p class="advertencia">Solo letras minúsculas y sin acentos</p>
+                <div class="botones">
+                <button  class="btnEncriptar"  onclick="btnEncriptar()">Encriptar</button>
+                <button  class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button> 
+                <div><button  class="copiar" onclick="btncopiar()">Copiar</button></div>
+                </div>              
+            </Section>
+            <section> 
+                <textarea class="mensaje"  cols="20" rows="10"></textarea>
+                
+         
+                
+                
+            </section>
+                        
+        </main>
+        <script src="index.js" ></script>
+       
+
+    </body>
+</html>
